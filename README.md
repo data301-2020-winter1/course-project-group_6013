@@ -2,7 +2,6 @@
 <<<<<<< HEAD
 
 # Group 6013 - Becoming a Successful Youtuber Through Data Analysis
->>>>>>> a7aeab875a97ec1ef82101c9c2990b7315defc60
 
 
 ## Milestones
@@ -22,7 +21,6 @@ The dataset we selected was originally created in 2017 and was last updated in 2
 <<<<<<< HEAD
 - Durvan : Biochemistry major & CompSci minor candidate
 - Izgi: Data Science major & a transfer student from Hong Kong
->>>>>>> a7aeab875a97ec1ef82101c9c2990b7315defc60
 - Person 3: one sentence about you!
 
 ## References

@@ -1,0 +1,1 @@
+This directory contains two directories, one for processed and one for raw data

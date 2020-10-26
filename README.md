@@ -1,5 +1,8 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=313825&assignment_repo_type=GroupAssignmentRepo)
-## Group 6013 - Becoming a Successful Youtuber Through Data Analysis
+<<<<<<< HEAD
+
+# Group 6013 - Becoming a Successful Youtuber Through Data Analysis
+>>>>>>> a7aeab875a97ec1ef82101c9c2990b7315defc60
 
 
 ## Milestones
@@ -16,8 +19,10 @@ The dataset we selected was originally created in 2017 and was last updated in 2
 
 ## Team Members
 
+<<<<<<< HEAD
 - Durvan : Biochemistry major & CompSci minor candidate
 - Izgi: Data Science major & a transfer student from Hong Kong
+>>>>>>> a7aeab875a97ec1ef82101c9c2990b7315defc60
 - Person 3: one sentence about you!
 
 ## References

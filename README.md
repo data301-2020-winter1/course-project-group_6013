@@ -1,5 +1,5 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=313825&assignment_repo_type=GroupAssignmentRepo)
-<<<<<<< HEAD
+
 
 # Group 6013 - Becoming a Successful Youtuber Through Data Analysis
 
@@ -10,7 +10,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-In a world where everything is digital, trends change very quickly. YouTube is one of the platforms where trends are born and shared. Due to its power, being a YouTube influencer has become a viable career option. By using this dataset to analyze, we will be able to understand how videos become trending, how it varies from country to country, which type content is the most successful, what makes videos to stay in trending in YouTube.
+In a world where everything is digital, trends change very quickly. YouTube is one of the platforms where trends are born and shared. Due to its power, being a YouTube influencer has become a viable career option. By using this dataset to analyze, we will be able to understand how videos become trending, how it varies from country to country, which type content is the most successful, what makes videos to stay in trending in YouTube. Data Analysis gives us the ability to be proactive and give allows us to anticipate our needs as well be able to mitigate risk and fraud. This applies to Youtube because of the increase in the subscribers will mean an increase in funds and wealth and data analysis will allow us to be able to see any thing wrong with such finances as well as anticipate how much funding will be needed for the next video as well as props or other things needed to you earn more subscribers.
 
 ## Describe your dataset in about 150-200 words
 
@@ -18,10 +18,10 @@ The dataset we selected was originally created in 2017 and was last updated in 2
 
 ## Team Members
 
-<<<<<<< HEAD
+
 - Durvan : Biochemistry major & CompSci minor candidate
 - Izgi: Data Science major & a transfer student from Hong Kong
-- Person 3: one sentence about you!
+- Ammar : Biology major & graduating this year!
 
 ## References
 

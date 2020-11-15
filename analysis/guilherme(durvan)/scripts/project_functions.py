@@ -4,7 +4,7 @@
  "nbformat": 4,
  "nbformat_minor": 4
 }
-def load_and_process(address)
+def load_and_process(address):
     import pandas as pd
     import csv
     import json
@@ -29,7 +29,7 @@ def load_and_process(address)
         return newDF
     def cleanItUp(myDF) :      #Chain 2
         myDF = (
-        newDF.replace(r'^\s*$', np.NaN, regex=True).replace("[none]",np.NaN).dropna().drop('thumbnail_link')
-        )       #method chaining used to replace empty strings with nan, [none] with nan, and to drop nan rows, and remove image column
+        myDF.replace(r'^\s*$', np.NaN, regex=True).replace("[none]",np.NaN).dropna().drop('thumbnail_link')
+        )#method chaining used to replace empty strings with nan, [none] with nan, and to drop nan rows, and remove image column
         return myDF
     return cleanItUp(compileCsvDFs(DFs))

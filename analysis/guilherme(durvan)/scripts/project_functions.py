@@ -23,13 +23,13 @@ def load_and_process(address):
     #print(len(data))
     DFs = {"CA" :data[0], "DE" :data[1], "GB" :data[2], "FR" :data[3],"IN" :data[4], "JP" :data[5], "KR" :data[6], "MX" :data[7], "RU" :data[8], "US" :data[9]} #A dictionary of countries and dfs
     def compileCsvDFs(DFs) :   #Chain 1
-        newDF = DFs["CA"][0].assign(Country='CA') #A Canada df (csv only)
+        DF = DFs["CA"][0].assign(Country='CA') #A Canada df (csv only)
         for i in range(1,10):
-            newDF = newDF.append(DFs[countries[i]][0].assign(Country=countries[i]),ignore_index=True) #appends the other countries csv dfs to the canada csv df, creates new column for country name
-        return newDF
-    def cleanItUp(myDF) :      #Chain 2
-        myDF = (
-        myDF.replace(r'^\s*$', np.NaN, regex=True).replace("[none]",np.NaN).dropna().drop('thumbnail_link')
+            DF = DF.append(DFs[countries[i]][0].assign(Country=countries[i]),ignore_index=True) #appends the other countries csv dfs to the canada csv df, creates new column for country name
+        return DF
+    def cleanItUp(DF) :      #Chain 2
+        DF = (
+        DF.replace(r'^\s*$', np.NaN, regex=True).replace("[none]",np.NaN).dropna(axis=0).drop(columns=["thumbnail_link"])
         )#method chaining used to replace empty strings with nan, [none] with nan, and to drop nan rows, and remove image column
-        return myDF
+        return DF
     return cleanItUp(compileCsvDFs(DFs))

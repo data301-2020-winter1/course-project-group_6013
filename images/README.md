@@ -1,1 +1,5 @@
-This directory contains relevant images
+## Images
+**In this directory we have added relevant images such as**
+*graphs*
+
+

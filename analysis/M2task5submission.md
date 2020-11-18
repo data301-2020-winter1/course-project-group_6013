@@ -4,7 +4,7 @@
 
 To answer this research question a new column (likes/view) was computed and used to make a bar plot with all of the countries in this analysis in the y axis:  
 
-![Figure 1](..\images\LPVcs.png)  
+![Figure 1](../images/LPVcs.png)  
 This figure shows that likes per view (LPV) when videos become trending can differ between countries. India,Japan and Korea have the lowest LPV, whereas Russia and Mexico have the highest. Actually, Russia and Mexico have a similar LPV, as seen by the length of the bars and similar standard error interval. Interestingly, the English-speaking countries (Canada, USA, Great Britain) have a similar LPV.
 
 dislikes per view were computed and plotted too:  

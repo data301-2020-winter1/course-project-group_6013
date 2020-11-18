@@ -1,6 +1,6 @@
 #**Youtube analytics - our path to internet fame**
 ---
-## Durvan - Research question 1 - Does the yield of likes/dislikes per view on youtube differ between trending video categories across countries?
+## Research question 1 - Does the yield of likes/dislikes per view on youtube differ between trending video categories across countries?
 
 To answer this research question a new column (likes/view) was computed and used to make a bar plot with all of the countries in this analysis in the y axis:  
 
@@ -34,9 +34,9 @@ This figure shows a few categories with much higher dislikes per view than the o
 From this analysis, a suitable answer to the research question would be that the yields of likes and dislikes per video in trending youtube videos do differ across categories and between countries. 
 
 
-## Izgi - Research question 2 -
+## Research question 2 -
 
 
-## Ammar - Research question 3 - 
+## Research question 3 - 
 
 

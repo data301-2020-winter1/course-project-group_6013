@@ -9,6 +9,7 @@ def load_and_process(address):
     import csv
     import json
     import numpy as np
+    import os
     #This loads the csv and json files for each country:
     countries = ["CA","DE","GB","FR","IN","JP","KR","MX","RU","US"]
     Countries = ["Canada","Germany","Great Britain","France","India","Japan","Korea","Mexico","Russia","USA"]
@@ -34,10 +35,13 @@ def load_and_process(address):
         )#method chaining used to replace empty strings with nan, [none] with nan, and to drop nan rows, and remove image column
         rawCatKey = "15 - Pets & Animals\n17 - Sports\n18 - Short Movies\n19 - Travel & Events\n20 - Gaming\n21 - Videoblogging\n22 - People & Blogs\n23 - Comedy\n24 - Entertainment\n25 - News & Politics\n26 - Howto & Style\n27 - Education\n28 - Science & Technology\n29 - Nonprofits & Activism\n30 - Movies\n31 - Anime/Animation\n32 - Action/Adventure\n33 - Classics\n34 - Comedy\n35 - Documentary\n36 - Drama\n37 - Family\n38 - Foreign\n39 - Horror\n40 - Sci-Fi/Fantasy\n41 - Thriller\n42 - Shorts\n43 - Shows\n44 - Trailers"
         key = {1:"Film & Animation",2:"Autos & Vehicles",10:"Music"}
-      #  fragments = rawCatKey.split("\n")
-       # for fragment in fragments :
-        #    key[int(fragment[0:2])]=fragment[5]
-        #for category in DF["category_id"] :
-         #   category = key[category]
+        fragments = rawCatKey.split("\n")
+        for fragment in fragments :
+            key[int(fragment[0:2])]=fragment[5]      #adds all categories to key
+        print(DF["category_id"].dtypes)
+        DF["category_id"] = DF["category_id"].astype(str)  #converting values in the column to strings
+        print(DF["category_id"].dtypes)
+        for category in key :      
+            DF["category_id"] = DF["category_id"].str.replace(str(category),key[category])       #replacing numbers in key with matching categories
         return DF
     return cleanItUp(compileCsvDFs(DFs))

@@ -6,4 +6,5 @@ task 4 was done in [milestone2.ipynb](milestone2.ipynb), and I built upon it in 
 
 plot images can be found in the [images folder](../../images/).  
 Here's an example of one of the images made just so you can see I can embed:  
+
 [Figure x](../../images/LPVcs.png)

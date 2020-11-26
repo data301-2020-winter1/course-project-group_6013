@@ -1,10 +1,10 @@
 #**Youtube analytics - our path to internet fame**
 ---
-## Durvan - Research question 1 - Does the yield of likes/dislikes per view on youtube differ between trending video categories across countries?
+## Research question 1 - Does the yield of likes/dislikes per view on youtube differ between trending video categories across countries?
 
 To answer this research question a new column (likes/view) was computed and used to make a bar plot with all of the countries in this analysis in the y axis:  
 
-![Figure 1](..\images\LPVcs.png)  
+![Figure 1](../images/LPVcs.png)  
 This figure shows that likes per view (LPV) when videos become trending can differ between countries. India,Japan and Korea have the lowest LPV, whereas Russia and Mexico have the highest. Actually, Russia and Mexico have a similar LPV, as seen by the length of the bars and similar standard error interval. Interestingly, the English-speaking countries (Canada, USA, Great Britain) have a similar LPV.
 
 dislikes per view were computed and plotted too:  
@@ -34,9 +34,9 @@ This figure shows a few categories with much higher dislikes per view than the o
 From this analysis, a suitable answer to the research question would be that the yields of likes and dislikes per video in trending youtube videos do differ across categories and between countries. 
 
 
-## Izgi - Research question 2 -
+## Research question 2 -
 
 
-## Ammar - Research question 3 - 
+## Research question 3 - 
 
 

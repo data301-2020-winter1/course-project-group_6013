@@ -31,15 +31,13 @@ def load_and_process(address):
         return DF
     def cleanItUp(DF) :      #Chain 2
         DF = (
-        DF.replace(r'^\s*$', np.NaN, regex=True).replace("[none]",np.NaN).dropna(axis=0).drop(columns=["thumbnail_link","video_id"])
+        DF.replace(r'^\s*$', np.NaN, regex=True).replace("[none]",np.NaN).dropna(axis=0).drop(columns=["thumbnail_link"])
         )#method chaining used to replace empty strings with nan, [none] with nan, and to drop nan rows, and remove image column
-        rawCatKey = "18 - Short Movies\n19 - Travel & Events\n20 - Gaming\n21 - Videoblogging\n22 - People & Blogs\n23 - Comedy\n24 - Entertainment\n25 - News & Politics\n26 - Howto & Style\n27 - Education\n28 - Science & Technology\n29 - Nonprofits & Activism\n30 - Movies\n31 - Anime/Animation\n32 - Action/Adventure\n33 - Classics\n34 - Comedy\n35 - Documentary\n36 - Drama\n37 - Family\n38 - Foreign\n39 - Horror\n40 - Sci-Fi/Fantasy\n41 - Thriller\n42 - Shorts\n43 - Shows\n44 - Trailers"
-        key = {15:"Pets & Animals",17:"Sports",10:"Music"}
+        rawCatKey = "15 - Pets & Animals\n17 - Sports\n18 - Short Movies\n19 - Travel & Events\n20 - Gaming\n21 - Videoblogging\n22 - People & Blogs\n23 - Comedy\n24 - Entertainment\n25 - News & Politics\n26 - Howto & Style\n27 - Education\n28 - Science & Technology\n29 - Nonprofits & Activism\n30 - Movies\n31 - Anime/Animation\n32 - Action/Adventure\n33 - Classics\n34 - Comedy\n35 - Documentary\n36 - Drama\n37 - Family\n38 - Foreign\n39 - Horror\n40 - Sci-Fi/Fantasy\n41 - Thriller\n42 - Shorts\n43 - Shows\n44 - Trailers"
+        key = {1:"Film & Animation",2:"Autos & Vehicles",10:"Music"}
         fragments = rawCatKey.split("\n")
         for fragment in fragments :
-            key[int(fragment[0:2])]=fragment[5:len(fragment)]      #adds all categories to key
-        key[1] = "Film & Animation"
-        key[2] = "Autos & Vehicles"
+            key[int(fragment[0:2])]=fragment[5]      #adds all categories to key
         print(DF["category_id"].dtypes)
         DF["category_id"] = DF["category_id"].astype(str)  #converting values in the column to strings
         print(DF["category_id"].dtypes)

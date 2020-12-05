@@ -20,7 +20,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='allcountriesprocessed' name='textscan.1t5q67v0255gj11fzo75l0wke21w'>
-            <connection class='textscan' directory='C:/Users/guilherme/Documents/3AF/DATA301/project/data/processed' filename='allcountriesprocessed.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/Owner/Documents/COSC_301/Project/Milestone_1/course-project-group_6013/data/processed' filename='allcountriesprocessed.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1t5q67v0255gj11fzo75l0wke21w' name='allcountriesprocessed.csv' table='[allcountriesprocessed#csv]' type='table'>
@@ -436,7 +436,7 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.07707if02aja3a161snv11in1y9s].[none:Title length:qk]' field-type='quantitative' max='167' min='-16' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.07707if02aja3a161snv11in1y9s].[none:Title length:qk]' field-type='quantitative' max='167.0' min='-16.0' range-type='fixed' scope='cols' type='space' />
           </style-rule>
           <style-rule element='map'>
             <format attr='washout' value='0.0' />
@@ -459,8 +459,8 @@
       <simple-id uuid='{31E3C5CB-0A66-4C81-8B28-50EBB0C26282}' />
     </worksheet>
   </worksheets>
-  <windows source-height='30'>
-    <window class='worksheet' name='Sheet 1'>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -476,14 +476,14 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
       </cards>
       <simple-id uuid='{1D73A2BD-2FBC-45EC-87AC-BAD328EA7EFC}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 2'>
+    <window class='worksheet' name='Sheet 2'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -499,7 +499,7 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='30'>
             <card type='title' />
           </strip>
         </edge>
@@ -516,7 +516,7 @@
   </windows>
   <thumbnails>
     <thumbnail height='192' name='Sheet 1' width='192'>
-      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
       AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
       gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
       MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD

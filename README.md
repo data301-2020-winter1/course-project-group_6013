@@ -3,6 +3,9 @@
 
 # Group 6013 - Becoming a Successful Youtuber Through Data Analysis
 
+## Link for Recording
+
+(https://vimeo.com/487919934)[https://vimeo.com/487919934]
 
 ## Milestones
 

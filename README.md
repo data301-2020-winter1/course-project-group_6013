@@ -5,7 +5,7 @@
 
 ## Link for Recording
 
-(https://vimeo.com/487919934)[https://vimeo.com/487919934]
+[https://vimeo.com/487919934](https://vimeo.com/487919934)
 
 ## Milestones
 
